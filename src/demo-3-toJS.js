@@ -7,4 +7,4 @@ const { Map } = require('immutable')
 
 const obj = Map({ name: 'Mike', age: 12 })
 console.log(obj)
-console.log(obj.toJS())
+console.log(JSON.stringify(obj.toJS(), ' ', 2))

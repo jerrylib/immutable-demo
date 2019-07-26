@@ -10,5 +10,3 @@ var copyObj = obj
 copyObj.a = 2
 console.log('obj=', obj)
 console.log('copyObj=', copyObj)
-
-console.log(Map({ a: 1 }), Map({ a: 1, b: 3 }).toJS())
